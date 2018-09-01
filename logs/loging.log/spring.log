@@ -1,0 +1,30 @@
+2018-09-01 09:23:23.020  INFO 8760 --- [main] o.m.a.AccountCenterApplication           : Starting AccountCenterApplication on RLY-PC with PID 8760 (C:\Users\RLY\Desktop\account-center-master\target\classes started by RLY in C:\Users\RLY\Desktop\account-center-master)
+2018-09-01 09:23:23.020 DEBUG 8760 --- [main] o.m.a.AccountCenterApplication           : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-01 09:23:23.020  INFO 8760 --- [main] o.m.a.AccountCenterApplication           : No active profile set, falling back to default profiles: default
+2018-09-01 09:23:24.721  INFO 8760 --- [main] o.m.a.AccountCenterApplication           : Started AccountCenterApplication in 2.011 seconds (JVM running for 2.538)
+2018-09-01 09:23:34.171 DEBUG 8760 --- [http-nio-1001-exec-2] o.m.a.m.MlUserMapper.findByPhoneNumber   : ==>  Preparing: SELECT COUNT(*) FROM ml_user WHERE phone_Number=? 
+2018-09-01 09:23:34.184 DEBUG 8760 --- [http-nio-1001-exec-2] o.m.a.m.MlUserMapper.findByPhoneNumber   : ==> Parameters: 18700523877(String)
+2018-09-01 09:23:34.203 DEBUG 8760 --- [http-nio-1001-exec-2] o.m.a.m.MlUserMapper.findByPhoneNumber   : <==      Total: 1
+2018-09-01 09:23:34.205 DEBUG 8760 --- [http-nio-1001-exec-2] o.m.a.mapper.MlUserMapper.addUser        : ==>  Preparing: INSERT INTO ml_account_center.ml_user (username, PASSWORD, STATUS, remark, reg_time, phone_Number) VALUES(?, ?, ?, ?, ?, ?) 
+2018-09-01 09:23:34.206 DEBUG 8760 --- [http-nio-1001-exec-2] o.m.a.mapper.MlUserMapper.addUser        : ==> Parameters: asdli(String), 123456(String), 1(Integer), null, 20181012(Integer), 18700523877(String)
+2018-09-01 09:23:34.212 DEBUG 8760 --- [http-nio-1001-exec-2] o.m.a.mapper.MlUserMapper.addUser        : <==    Updates: 1
+2018-09-01 09:23:57.259 DEBUG 8760 --- [http-nio-1001-exec-3] o.m.a.m.MlUserMapper.findByPhoneNumber   : ==>  Preparing: SELECT COUNT(*) FROM ml_user WHERE phone_Number=? 
+2018-09-01 09:23:57.259 DEBUG 8760 --- [http-nio-1001-exec-3] o.m.a.m.MlUserMapper.findByPhoneNumber   : ==> Parameters: 18700523877(String)
+2018-09-01 09:23:57.261 DEBUG 8760 --- [http-nio-1001-exec-3] o.m.a.m.MlUserMapper.findByPhoneNumber   : <==      Total: 1
+2018-09-01 09:33:50.730  INFO 6372 --- [main] o.m.a.AccountCenterApplication           : Starting AccountCenterApplication on RLY-PC with PID 6372 (C:\Users\RLY\Desktop\account-center-master\target\classes started by RLY in C:\Users\RLY\Desktop\account-center-master)
+2018-09-01 09:33:50.732 DEBUG 6372 --- [main] o.m.a.AccountCenterApplication           : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-01 09:33:50.733  INFO 6372 --- [main] o.m.a.AccountCenterApplication           : No active profile set, falling back to default profiles: default
+2018-09-01 09:33:52.612  INFO 6372 --- [main] o.m.a.AccountCenterApplication           : Started AccountCenterApplication in 2.167 seconds (JVM running for 2.689)
+2018-09-01 09:33:56.641 DEBUG 6372 --- [http-nio-1001-exec-1] o.m.a.m.MlUserMapper.findByPhoneNumber   : ==>  Preparing: SELECT COUNT(*) FROM ml_user WHERE phone_Number=? 
+2018-09-01 09:33:56.655 DEBUG 6372 --- [http-nio-1001-exec-1] o.m.a.m.MlUserMapper.findByPhoneNumber   : ==> Parameters: 18700523877(String)
+2018-09-01 09:33:56.665 DEBUG 6372 --- [http-nio-1001-exec-1] o.m.a.m.MlUserMapper.findByPhoneNumber   : <==      Total: 1
+2018-09-01 09:33:56.667  INFO 6372 --- [http-nio-1001-exec-1] o.ml.accountcenter.web.MlUserController  : 结果返回为：false
+2018-09-01 09:35:18.644  INFO 5728 --- [main] o.m.a.AccountCenterApplication           : Starting AccountCenterApplication on RLY-PC with PID 5728 (C:\Users\RLY\Desktop\account-center-master\target\classes started by RLY in C:\Users\RLY\Desktop\account-center-master)
+2018-09-01 09:35:18.647 DEBUG 5728 --- [main] o.m.a.AccountCenterApplication           : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-01 09:35:18.649  INFO 5728 --- [main] o.m.a.AccountCenterApplication           : No active profile set, falling back to default profiles: default
+2018-09-01 09:35:20.529  INFO 5728 --- [main] o.m.a.AccountCenterApplication           : Started AccountCenterApplication in 2.163 seconds (JVM running for 2.712)
+2018-09-01 09:35:30.546 DEBUG 5728 --- [http-nio-1001-exec-1] o.m.a.m.MlUserMapper.findByPhoneNumber   : ==>  Preparing: SELECT COUNT(*) FROM ml_user WHERE phone_Number=? 
+2018-09-01 09:35:30.559 DEBUG 5728 --- [http-nio-1001-exec-1] o.m.a.m.MlUserMapper.findByPhoneNumber   : ==> Parameters: 18700523877(String)
+2018-09-01 09:35:30.569 DEBUG 5728 --- [http-nio-1001-exec-1] o.m.a.m.MlUserMapper.findByPhoneNumber   : <==      Total: 1
+2018-09-01 09:35:30.570 ERROR 5728 --- [http-nio-1001-exec-1] o.ml.accountcenter.web.MlUserController  : 添加失败，数据库已有注册的手机号！！！
+2018-09-01 09:35:30.571  INFO 5728 --- [http-nio-1001-exec-1] o.ml.accountcenter.web.MlUserController  : 结果返回为：false
